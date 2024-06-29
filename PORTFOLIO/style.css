@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(34, 34, 34);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(102, 101, 101);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+body {
+    background-color: rgb(145, 144, 145);
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 77px 0px;
+}
+
+.first>div {
+    width: 38%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(27, 26, 26);
+}
+
+#element {
+    color: rgb(30, 29, 30);
+}
+
+.second {
+    max-width: 82vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.gray {
+    color: rgb(35, 34, 34);
+}
+
+.second h1 {
+    font-size: 1.9rem;
+}
+
+.second .box {
+    background: wheat;
+    width: 70vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.second .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: wheat;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 35px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 16px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+
+    width: 180px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: rgb(99, 99, 99);
+
+
+}
+
+.footer {
+    display: flex;
+    height: 233px;
+    padding: 23px 125px;
+    justify-content: space-evenly;
+
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-right {
+    text-align: center;
+
+    padding: 12px 0;
+}
+
+hr {
+    background-color: pink;
+
+}
+
+.abhi { 
+    font-family: 'Poppins', sans-serif;
+    background:none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    border-style: inset;
+}
+
+.abhi button1 {
+    width: 250px;
+}
